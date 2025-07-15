@@ -30,14 +30,14 @@ body {
 }
 
 .header{
-    height: 10vh;
+    height: 8vh;
     padding-left:24vw;
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
-    background-color: #5d5c5c;
+    background-color: #3f51a3;
     color: #d2c0fa;
 }
 .header .search {
