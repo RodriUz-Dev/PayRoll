@@ -1,31 +1,31 @@
 {
     "payrolls": [
         {
-            "id": 1,
+            "id": "1",
             "empleado": "Juan Pérez",
             "fecha": "2025-07-01",
             "monto": "$25,000"
         },
         {
-            "id": 2,
+            "id": "2",
             "empleado": "Ana Gómez",
             "fecha": "2025-07-01",
             "monto": "$28,500"
         },
         {
-            "id": 3,
+            "id": "3",
             "empleado": "Luis Rodríguez",
             "fecha": "2025-07-01",
             "monto": "$26,800"
         },
         {
-            "id": 4,
+            "id": "4",
             "empleado": "Paola Méndez",
             "fecha": "2025-07-01",
             "monto": "$24,300"
         },
         {
-            "id": 5,
+            "id": "5",
             "empleado": "Carlos Ruiz",
             "fecha": "2025-07-01",
             "monto": "$29,100"
@@ -61,6 +61,11 @@
             "id": 6,
             "inicio": "2025-07-16",
             "fin": "2025-07-31"
+        },
+        {
+            "id": 7,
+            "inicio": "2025-09-01",
+            "fin": "2025-09-15"
         }
     ],
     "empleados": [
@@ -93,6 +98,18 @@
             "nombre": "Will Smith",
             "tarifa": 120,
             "puesto": "DBA"
+        },
+        {
+            "id": 6,
+            "nombre": "Jose Rodriguez",
+            "tarifa": 200,
+            "puesto": "Administrador"
+        },
+        {
+            "id": 7,
+            "nombre": "Gabriel Uzcanga",
+            "tarifa": 110,
+            "puesto": "Administrador"
         }
     ],
     "movimientos": [
@@ -111,31 +128,59 @@
             "tipo": "extra"
         },
         {
-            "id": "92c0",
+            "id": 3,
             "empleadoId": 3,
             "fecha": "2025-07-14",
             "horas": 8,
             "tipo": "normal"
         },
         {
-            "id": "15c2",
+            "id": 4,
             "empleadoId": "1",
             "fecha": "2025-07-15",
             "horas": 7,
             "tipo": "normal"
         },
         {
-            "id": "7092",
+            "id": 5,
             "empleadoId": "4",
             "fecha": "2025-07-14",
             "horas": 5,
             "tipo": "normal"
         },
         {
-            "id": "83cf",
+            "id": 6,
             "empleadoId": "5",
             "fecha": "2025-07-14",
             "horas": 7,
+            "tipo": "normal"
+        },
+        {
+            "id": 7,
+            "empleadoId": "6",
+            "fecha": "2025-07-16",
+            "horas": 8,
+            "tipo": "normal"
+        },
+        {
+            "id": 8,
+            "empleadoId": "1",
+            "fecha": "2025-07-16",
+            "horas": 8,
+            "tipo": "normal"
+        },
+        {
+            "id": 9,
+            "empleadoId": "7",
+            "fecha": "2025-07-21",
+            "horas": 8,
+            "tipo": "normal"
+        },
+        {
+            "id": 10,
+            "empleadoId": "4",
+            "fecha": "2025-07-21",
+            "horas": 8,
             "tipo": "normal"
         }
     ],
@@ -169,6 +214,126 @@
             "periodoInicio": "2025-07-01",
             "periodoFin": "2025-07-15",
             "fechaRegistro": "2025-07-15T03:32:32.657Z"
+        },
+        {
+            "id": 4,
+            "empleadoId": 1,
+            "nombre": "Juan Pérez",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.443Z"
+        },
+        {
+            "id": 5,
+            "empleadoId": 2,
+            "nombre": "Ana Gómez",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.444Z"
+        },
+        {
+            "id": 6,
+            "empleadoId": 3,
+            "nombre": "Rodrigo Uzcanga",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.445Z"
+        },
+        {
+            "id": 7,
+            "empleadoId": 4,
+            "nombre": "Jhon Smith",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.445Z"
+        },
+        {
+            "id": 8,
+            "empleadoId": 5,
+            "nombre": "Will Smith",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.445Z"
+        },
+        {
+            "id": 9,
+            "empleadoId": 6,
+            "nombre": "Jose Rodriguez",
+            "total": 0,
+            "periodoId": 6,
+            "periodoInicio": "2025-07-16",
+            "periodoFin": "2025-07-31",
+            "fechaRegistro": "2025-07-15T04:59:04.445Z"
+        },
+        {
+            "id": 10,
+            "empleadoId": 1,
+            "nombre": "Juan Pérez",
+            "total": 960,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.995Z"
+        },
+        {
+            "id": 11,
+            "empleadoId": 2,
+            "nombre": "Ana Gómez",
+            "total": 390,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.995Z"
+        },
+        {
+            "id": 12,
+            "empleadoId": 3,
+            "nombre": "Rodrigo Uzcanga",
+            "total": 1200,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.995Z"
+        },
+        {
+            "id": 13,
+            "empleadoId": 4,
+            "nombre": "Jhon Smith",
+            "total": 0,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.996Z"
+        },
+        {
+            "id": 14,
+            "empleadoId": 5,
+            "nombre": "Will Smith",
+            "total": 0,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.996Z"
+        },
+        {
+            "id": 15,
+            "empleadoId": 6,
+            "nombre": "Jose Rodriguez",
+            "total": 0,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T04:59:23.996Z"
         }
     ]
 }
