@@ -1,0 +1,174 @@
+{
+    "payrolls": [
+        {
+            "id": 1,
+            "empleado": "Juan Pérez",
+            "fecha": "2025-07-01",
+            "monto": "$25,000"
+        },
+        {
+            "id": 2,
+            "empleado": "Ana Gómez",
+            "fecha": "2025-07-01",
+            "monto": "$28,500"
+        },
+        {
+            "id": 3,
+            "empleado": "Luis Rodríguez",
+            "fecha": "2025-07-01",
+            "monto": "$26,800"
+        },
+        {
+            "id": 4,
+            "empleado": "Paola Méndez",
+            "fecha": "2025-07-01",
+            "monto": "$24,300"
+        },
+        {
+            "id": 5,
+            "empleado": "Carlos Ruiz",
+            "fecha": "2025-07-01",
+            "monto": "$29,100"
+        }
+    ],
+    "periodos": [
+        {
+            "id": 1,
+            "inicio": "2025-06-01",
+            "fin": "2025-06-15"
+        },
+        {
+            "id": 2,
+            "inicio": "2025-06-16",
+            "fin": "2025-06-30"
+        },
+        {
+            "id": 3,
+            "inicio": "2025-08-01",
+            "fin": "2025-08-15"
+        },
+        {
+            "id": 4,
+            "inicio": "2025-08-16",
+            "fin": "2025-08-31"
+        },
+        {
+            "id": 5,
+            "inicio": "2025-07-01",
+            "fin": "2025-07-15"
+        },
+        {
+            "id": 6,
+            "inicio": "2025-07-16",
+            "fin": "2025-07-31"
+        }
+    ],
+    "empleados": [
+        {
+            "id": 1,
+            "nombre": "Juan Pérez",
+            "puesto": "Contador",
+            "tarifa": 120
+        },
+        {
+            "id": 2,
+            "nombre": "Ana Gómez",
+            "puesto": "Recursos Humanos",
+            "tarifa": 130
+        },
+        {
+            "id": 3,
+            "nombre": "Rodrigo Uzcanga",
+            "puesto": "Desarrollador de Software",
+            "tarifa": 150
+        },
+        {
+            "id": 4,
+            "nombre": "Jhon Smith",
+            "tarifa": 120,
+            "puesto": "Developer"
+        },
+        {
+            "id": 5,
+            "nombre": "Will Smith",
+            "tarifa": 120,
+            "puesto": "DBA"
+        }
+    ],
+    "movimientos": [
+        {
+            "id": 1,
+            "empleadoId": 1,
+            "fecha": "2025-07-10",
+            "horas": 8,
+            "tipo": "normal"
+        },
+        {
+            "id": 2,
+            "empleadoId": 2,
+            "fecha": "2025-07-10",
+            "horas": 2,
+            "tipo": "extra"
+        },
+        {
+            "id": "92c0",
+            "empleadoId": 3,
+            "fecha": "2025-07-14",
+            "horas": 8,
+            "tipo": "normal"
+        },
+        {
+            "id": "15c2",
+            "empleadoId": "1",
+            "fecha": "2025-07-15",
+            "horas": 7,
+            "tipo": "normal"
+        },
+        {
+            "id": "7092",
+            "empleadoId": "4",
+            "fecha": "2025-07-14",
+            "horas": 5,
+            "tipo": "normal"
+        },
+        {
+            "id": "83cf",
+            "empleadoId": "5",
+            "fecha": "2025-07-14",
+            "horas": 7,
+            "tipo": "normal"
+        }
+    ],
+    "historialNomina": [
+        {
+            "id": 1,
+            "empleadoId": 1,
+            "nombre": "Juan Pérez",
+            "total": 15000,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T03:32:32.644Z"
+        },
+        {
+            "id": 2,
+            "empleadoId": 2,
+            "nombre": "Ana Gómez",
+            "total": 15000,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T03:32:32.657Z"
+        },
+        {
+            "id": 3,
+            "empleadoId": 3,
+            "nombre": "Rodrigo Uzcanga",
+            "total": 20000,
+            "periodoId": 5,
+            "periodoInicio": "2025-07-01",
+            "periodoFin": "2025-07-15",
+            "fechaRegistro": "2025-07-15T03:32:32.657Z"
+        }
+    ]
+}
